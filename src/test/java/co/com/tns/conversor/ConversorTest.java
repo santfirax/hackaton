@@ -17,7 +17,7 @@ public class ConversorTest {
 		
 	}
 	@Test
-	public void debeValidarTamañoDeLaCadena() {
+	public void debeValidarTamanoDeLaCadena() {
 		//Arrange
 		ConvertirHtml convertirHtml = new ConvertirHtml();
 		//act
