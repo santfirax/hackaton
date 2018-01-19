@@ -27,7 +27,7 @@ public class ConvertirHtml {
 //		// TODO Auto-generated method stub
 	
 
-	public boolean validarTamañoDeLaCadena(String header) {
+	public boolean validarTamanoDeLaCadena(String header) {
 		// TODO Auto-generated method stub
 		return header.length()<7;
 	}
