@@ -2,13 +2,11 @@ package co.com.tns.conversor;
 
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ConvertirHtml {
 
 	public List<String> convertir(String string) {
-		// TODO Auto-generated method stub
 		String cadenaEspacio = string.substring(0, 1);
 		if(!cadenaEspacio.equals(" ")) {
 			return Arrays.stream(string.split(" ")).collect(Collectors.toList());
@@ -17,24 +15,11 @@ public class ConvertirHtml {
 			return null;
 		}
 	}
-
-//	public boolean validarTamañoDeLaCadena(String header) {
-//		// TODO Auto-generated method stub
-//		return header.length()<7;
-//	}
-//
-//	public int contarNumeroDeNumerales(String header) {
-//		// TODO Auto-generated method stub
-	
-
 	public boolean validarTamanoDeLaCadena(String header) {
-		// TODO Auto-generated method stub
 		return header.length()<7;
 	}
 
 	public boolean contarNumeroDeNumerales(String header) {
-		// TODO Auto-generated method stub
-		
 		char[] arreglonumerales = header.toCharArray();
 		for(int i=0;i<arreglonumerales.length;i++)
 		{
@@ -55,7 +40,6 @@ public class ConvertirHtml {
 	}
 
 	public int MostrarEtiqueta(String header) {
-		// TODO Auto-generated method stub
 		int  contador=0;
 		char[] arreglonumerales = header.toCharArray();
 		for(int i=0;i<arreglonumerales.length;i++)

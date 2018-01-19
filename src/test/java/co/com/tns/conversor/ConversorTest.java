@@ -6,19 +6,6 @@ import org.junit.Test;
 
 
 public class ConversorTest {
-	/*@Test
-	public void debeConvertirCadenaEnLista()
-	{
-		
-		//Arrange, inicializo
-		ConvertirHtml convertirHtml = new ConvertirHtml();
-		//Act
-		List<String> header = convertirHtml.convertir("# Hola");
-		//Assert
-		Assert.assertTrue((null != convertirHtml)&&(header.size()>1));
-		
-		
-	}*/
 	@Test
 	public void debeValidarSiElPrimerCaracterNoSeaEspacio(){
 		//Arrange, inicializo
@@ -36,7 +23,7 @@ public class ConversorTest {
 		//act
 		String header = "######";
 		//assert
-		Assert.assertTrue(convertirHtml.validarTamañoDeLaCadena(header));
+		Assert.assertTrue(convertirHtml.validarTamanoDeLaCadena(header));
 		
 		
 		
